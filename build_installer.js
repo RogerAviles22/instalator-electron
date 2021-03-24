@@ -30,7 +30,7 @@ const msiCreator = new MSICreator({
     manufacturer: 'Signature-E',
     version: '1.0.0',
     appIconPath: './build/icon.ico',
-    language:1036,
+    language:1033,
 
 
     // Configure installer User Interface
