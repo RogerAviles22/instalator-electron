@@ -24,7 +24,7 @@ const msiCreator = new MSICreator({
     outputDirectory: OUT_DIR,
 
     // Configure metadata
-    description: 'This is a demo application',
+    description: 'Mensaje Bievenida',
     exe: 'MensajeMundo',
     name: 'Mensaje al Mundo Exterior',
     manufacturer: 'Signature-E',
