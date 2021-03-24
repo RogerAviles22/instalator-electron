@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- Required meta tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <title>Hello World!</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+  </head>
+  <body>
+    <h1>Hola! Comunica un mensaje al mundo</h1>
+    <form>
+      <div class="form-group">
+          <input type="text" class="form-control" id="mensaje" placeholder="Escribe tu mensaje..." >
+      </div>
+        <button class="btn btn-primary" id="btn-msg">Enviar</button>
+        <h4 id="msg-h4"></h4>
+      <div>
+        <h3 id="msg-h3"></h3>
+      </div>
+    </form>
+    <!-- You can also require other files to run in this process -->
+    <script src="./renderer.js"></script>   
+
+    </body>
+</html>
